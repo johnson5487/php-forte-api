@@ -1,6 +1,17 @@
 {
   "name": "johnson5487/forte-api",
   "description": "PHP implementation for working with Forte API",
+   "type": "library",
+  "keywords": [
+      "dblib", "mssql", "zf"
+  ],
+  "authors": [
+      {
+          "name": "Parl Johnson",
+          "email": "parl@patientdocs.com",
+          "homepage": "https://broad.msu.edu"
+      }
+  ],
   "require": {
     "chrislondon/generic-api": "dev-master"
   },
@@ -9,5 +20,7 @@
       "ChrisLondon\\ForteApi" : "src"
     }
   }
+  
+
 
 }
